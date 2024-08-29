@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/Images/favicon.ico" type="image/x-icon" />
+    <title>Leap Frog</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/output.css" />
+  </head>
+  <body>
+    <!-- navbar start  -->
+    <header>
+      <nav
+        class="flex items-center top-0 sm:p-5 p-3 z-50 fixed w-full bg-white  shadow-md"
+      >
+        <i
+          class="fa-solid fa-bars lg:hidden block sm:text-4xl text-3xl sm:me-5 me-2 menu cursor-pointer"
+        ></i>
+        <a href="index.html"
+          ><img
+            src="./Images/logo.svg"
+            class="sm:w-48 w-32 sm:ms-0 ms-6"
+            alt="logo"
+        /></a>
+        <ul
+          class="lg:flex items-center navbar duration-300 ease-in lg:translate-x-0 -translate-x-full lg:static absolute lg:text-black text-white lg:bg-white lg:h-min lg:w-max w-screen left-0  top-14 sm:top-20 h-screen bg-blue-400"
+        >
+          <li
+            class="ms-7 lg:mt-0 mt-8 text-lg p-2 hover:text-green-600 font-bold"
+          >
+            <a href="index.html">Home</a>
+          </li>
+          <li class="ms-7 lg:mt-0 mt-8 text-lg p-2 hover:font-bold">
+            <a href="#">Services</a>
+          </li>
+          <li class="ms-7 lg:mt-0 mt-8 text-lg p-2 hover:font-bold">
+            <a href="#">Join Leapfrog</a>
+          </li>
+          <li class="ms-7 lg:mt-0 mt-8 text-lg p-2 hover:font-bold">
+            <a href="#">Resources</a>
+          </li>
+          <li
+            class="ms-7 lg:mt-0 mt-8 text-lg p-2 hover:font-bold hover:text-green-600"
+          >
+            <a href="about.html">About us</a>
+          </li>
+        </ul>
+        <div
+          class="flex items-center md:p-2 p-1 ms-auto rounded cursor-pointer bg-green-700"
+        >
+          <img src="./Images/build-with-us.svg" alt="" class="w-5" />
+          <p class="font-bold text-sm text-white ms-2">
+            BUILD <span class="md:inline-block hidden">WITH US</span>
+          </p>
+        </div>
+      </nav>
+      <div
+        class="px-5 sm:py-0 py-10 sm:text-left text-center sm:flex justify-between items-center sm:px-20 text-white bg-[url('/Images/header-bg.webp')] bg-no-repeat bg-center h-48 sm:mt-20 mt-14"
+      >
+        <div>
+          <h2 class="sm:text-3xl text-xl text-yellow-500 font-bold">
+            Leapfrog your AI Innovation
+          </h2>
+          <p class="sm:text-base text-sm">
+            Unlock the transformative potential of generative AI to drive your
+            business forward.
+          </p>
+        </div>
+        <div class="sm:mt-0 mt-2">
+          <a href="#" class="font-bold underline sm:text-base text-sm"
+            >Explore our GenAI Solutions <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </header>
+    <!-- navbar ends  -->
+<!-- main start -->
+    <main class="sm:mt-10 mt-5">
+      <!-- intro section  -->
+      <section>
+        <div
+          class="lg:container lg:px-10  px-2 md:px-8 mx-auto md:container sm:container container"
+        >
+          <div class="flex justify-between gap-3 lg:gap-8 items-center md:flex-row flex-col">
+            <div class="md:w-1/2 w-full">
+              <div>
+                <h1 class="lg:text-8xl md:text-7xl sm:text-6xl text-5xl font-bold">
+                  Innovate<br class="hidden md:inline-block" />
+                  better, <br class="hidden md:inline-block" /><span
+                    class="text-blue-500"
+                    >Faster</span
+                  >
+                </h1>
+                <p class="mt-6">
+                  We help businesses imagine and create the digital experiences
+                  of tomorrow. We succeed together, through the fusion of
+                  startup agility, enterprise standards, and world-class
+                  engineering.
+                </p>
+                <div class="mt-10 sm:block flex justify-between items-center">
+                  <a
+                    href="#"
+                    class="text-blue-600 hover:text-green-500 font-bold"
+                    >BUILD WITH US<i class="fa-solid fa-arrow-right"></i
+                  ></a>
+                  <a
+                    href="#"
+                    class="text-blue-600 hover:text-green-500 font-bold sm:ms-24"
+                    >JOIN US<i class="fa-solid fa-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="md:w-1/2 w-full h-full flex justify-center cursor-pointer md:mt-0 playpaused mt-10 md:mb-0 mb-10 relative">
+              <i class="fa-solid z-10 fa-pause  video-control md:opacity-0  absolute left-1/2 top-1/2 text-3xl"></i>
+              <video src="./video/video1.mp4" class="w-full  video" autoplay muted loop></video>
+            </div>
+          </div>
+          <div class="lg:px-40 md:px:20 px-5 lg:mt-20 md:mt-10 mt-5">
+            <div class="owl-carousel owl-theme info z-2">
+              <div class="flex sm:flex-row flex-col gap-10 shadow-xl">
+                <img
+                  src="./Images/image.webp"
+                  class="object-contain mx-auto" data-aos="fade-up"
+                  alt=""
+                />
+                <div class="lg:p-4 md:p-2">
+                  <p class="lg:text-xl text-lg lg:leading-8">
+                    It would have taken months to build the product team that we
+                    <strong>inherited overnight</strong> with Leapfrog.
+                    <strong> They’re built for startup speed,</strong> and they
+                    have consistently delivered a well-engineered product for
+                    us.
+                  </p>
+                  <div
+                    class="flex sm:flex-row lg:py-7 md:py-4 sm:py-3 py-2 flex-col items-center justify-between"
+                  >
+                    <div class="mt-5">
+                      <p
+                        class="text-green-500 sm:text-2xl sm:text-left text-center text-xl lg:text-3xl font-bold"
+                      >
+                        Russ Richmond, MD
+                      </p>
+                      <p class="text-base sm:text-left text-center">
+                        CEO of Laudio, recognized in KLAS 2022 Emerging
+                        Solutions
+                      </p>
+                    </div>
+                    <p class="font-bold lg:text-4xl text-2xl sm:py-0 py-2" data-aos="fade-up">
+                      laudio
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="flex sm:flex-row flex-col gap-10 shadow-xl">
+                <img
+                  src="./Images/image.webp"
+                  class="object-contain mx-auto w-80"
+                  alt=""
+                  data-aos="fade-up"
+                />
+                <div class="lg:p-4 md:p-2">
+                  <p class="lg:text-xl text-lg lg:leading-8">
+                    It would have taken months to build the product team that we
+                    <strong>inherited overnight</strong> with Leapfrog.
+                    <strong> They’re built for startup speed,</strong> and they
+                    have consistently delivered a well-engineered product for
+                    us.
+                  </p>
+                  <div
+                    class="flex sm:flex-row lg:py-7 md:py-4 sm:py-3 py-2 flex-col items-center justify-between"
+                  >
+                    <div class="mt-5">
+                      <p
+                        class="text-green-500 sm:text-2xl sm:text-left text-center text-xl lg:text-3xl font-bold"
+                      >
+                        Russ Richmond, MD
+                      </p>
+                      <p class="text-base sm:text-left text-center">
+                        CEO of Laudio, recognized in KLAS 2022 Emerging
+                        Solutions
+                      </p>
+                    </div>
+                    <p class="font-bold lg:text-4xl text-2xl sm:py-0 py-2" data-aos="fade-up">
+                      laudio
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="text-center lg:px-20 md:px:16 px-5 lg:mt-20 md:mt-10 mt-5">
+            <h2 class="md:text-4xl text-3xl  font-bold">
+              Trusted by 150 <span class="text-green-600">+</span> enterprises,
+              scale-ups and startups
+            </h2>
+            <p class="py-2 sm:text-base text-sm px-4 mt-5">
+              At Leapfrog, we have had the privilege of partnering with some of
+              the most innovative and forward-thinking companies in the tech
+              industry. From big companies to startups that hope to be big one
+              day, they trust us with the expertise and support they need to
+              bring their ideas to life.
+            </p>
+            <div class="lg:mt-14 sm:mt-6 mt-4 flex items-center justify-center sm:flex-row flex-col">
+              <div class="sm:block flex flex-row flex-wrap items-center justify-center">
+                <img src="./Images/microsoft.webp" data-aos="fade-up" alt="brand-logo" title="Microsoft Company">
+                <img src="./Images/lg.webp" data-aos="fade-up" alt="brand-logo" title="Lg Company">
+              </div>
+              <div class="sm:block flex flex-row flex-wrap items-center justify-center">
+                <img src="./Images/keller.webp" data-aos="fade-up" alt="brand-logo" title="Keller Company">
+                <img src="./Images/ping.webp" data-aos="fade-up" alt="brand-logo" title="Ping Company">
+              </div>
+              <div class="sm:block flex flex-row flex-wrap items-center justify-center">
+                <img src="./Images/ucsf.webp" data-aos="fade-up" alt="brand-logo" title="UCSF Company">
+                <img src="./Images/laudio.webp" data-aos="fade-up" alt="brand-logo" title="Laudio company">
+              </div>
+              <div class="sm:block flex flex-row flex-wrap items-center justify-center">
+                <img src="./Images/memora.webp" data-aos="fade-up" alt="brand-logo" title="Memora Company">
+                <img src="./Images/phil.webp" data-aos="fade-up" alt="brand-logo" title="PHIL Company">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- intro section ends  -->
+       <section>
+        <div class="text-white bg-black">
+        <div class="lg:container  md:ps-5 ps-0  lg:mx-auto">
+          <div class=" lg:mt-20 md:mt-10 mt-5 lg:ps-24 md:ps:10 py-8 px-3 ">
+        <h2 class="text-4xl font-bold">What <span class="text-green-600">we do</span></h2>
+        <p class="mt-5 lg:pe-28 sm:pe-10 pe-0  text-xl">Discover how we empower our clients in launching successful startups and accelerate innovation, ultimately delivering ROI at speed.</p>
+        <div class="mt-20 flex lg:flex-row flex-col items center">
+        <div class="lg:overflow-visible flex items-center snap-x lg:flex-col overflow-x-auto  ">
+          <a href="#" class=" lg:px-7  sticky top-20 z-20 flex lg:justify-start items-center justify-center  p-2 lg:py-5   bg-gray-800 lg:w-80 w-1/2 lg:border-slate-700" ><i class="fa-solid fa-bolt me-2 text-green-600"></i><span class="font-bold  whitespace-nowrap text-lg">Generative AI</span><i class="ms-2 fa-solid fa-arrow-right"></i></a>
+          <a href="#" class="hover:bg-gray-800 lg:px-7 flex lg:justify-start items-center justify-center p-2 lg:py-5 lg:border-b-2 lg:w-80 w-1/2 lg:border-slate-700"><i class="fa-solid fa-shapes me-2"></i><span class="font-bold whitespace-nowrap text-lg">Product Development</span></a>
+          <a href="#" class="hover:bg-gray-800 lg:px-7 flex lg:justify-start items-center justify-center p-2 lg:py-5 lg:border-b-2 lg:w-80 w-1/2 lg:border-slate-700"><i class="fa-solid fa-people-group me-2"></i><span class="font-bold whitespace-nowrap text-lg">Team Augmentation</span></a>
+          <a href="#" class="hover:bg-gray-800 lg:px-7 flex lg:justify-start items-center justify-center p-2 lg:py-5 lg:border-b-2 lg:w-80 w-1/2 lg:border-slate-700"><i class="fa-solid fa-arrow-pointer me-2"></i><span class="font-bold whitespace-nowrap text-lg">Design</span></a>
+          <a href="#" class="hover:bg-gray-800 lg:px-7 flex lg:justify-start items-center justify-center p-2 lg:py-5 lg:border-b-2 lg:w-80 w-1/2 lg:border-slate-700"><i class="fa-solid fa-database me-2"></i><span class="font-bold whitespace-nowrap text-lg">AI & Data</span></a>
+          <a href="#" class="hover:bg-gray-800 lg:px-7 flex lg:justify-start items-center justify-center p-2 lg:py-5 lg:border-b-2 lg:w-80 w-1/2 lg:border-slate-700"><i class="fa-solid fa-box-open me-2"></i><span class="font-bold whitespace-nowrap text-lg">DevOps & Cloud</span></a>
+          <a href="#" class="hover:bg-gray-800 lg:px-7 flex lg:justify-start items-center justify-center p-2 lg:py-5 lg:border-b-2 lg:w-80 w-1/2 lg:border-slate-700"><i class="fa-solid fa-notes-medical me-2"></i><span class="font-bold whitespace-nowrap text-lg">Healthcare Technology</span></a>
+      </div>
+      <div class="ps-7  bg-gray-800 flex  flex-col sm:flex-row justify-center items-center pt-14">
+        <div class="self-start  sm:sticky top-24 z-10 ">
+        <h3 class=" text-xl md:text-2xl lg:3xl font-bold"><span class="text-green-600">Accelerated</span> Generative AI <span class="text-green-600">offerings</span></h3>
+        <p class="md:mt-5 mt-2">Rapidly explore new product ideas, features, and business opportunities by harnessing the creative potential of generative AI.
+        </p>
+        <button class="bg-green-600 font-bold hover:bg-green-900 lg:py-2 p-2 lg:px-3 mt-10">Explore GenAI Solutions<i class="ms-2 fa-solid fa-arrow-right"></i></button>
+      </div>
+      <img src="./Images/daigram.svg" class="img-fluid    sm:w-96 w-full" alt="">
+      </div>
+      </div>
+        </div>
+      </div>
+      </div>
+        <div class="lg:container  md:px-5 px-0  lg:mx-auto">
+        <div class="lg:mt-20 md:mt-10 mt-5 lg:px-14 md:px:5 py-8 px-3">
+          <div>
+            <h2 class="sm:text-4xl text-2xl  font-bold text-center">We have a <span class="text-green-600">proven track record</span> of ambitious <br> products in complex environments</h>
+              <p class="mt-5 text-center font-light text-base sm:text-xl">Since 2010, we've had over 100 fast-growing companies build apps, data-driven products, and cloud solutions that make an impact.</p>
+          </div>
+          <div class="mt-10 gap-3 flex md:flex-row flex-col justify-between items-center">
+            <a href="detailpage.html">
+            <div class="bg-slate-100 ">
+              <img src="./Images/doctoor.webp" data-aos="fade-up" class="img-fluid" alt="">
+              <div class=" ps-3 sm:ps-6">
+              <h2 class="font-bold text-2xl mt-3">Laudio</h2>
+              <h3 class="text-blue-600 mt-3 font-bold text-base sm:text-xl">We are leveraging AI and ML to help solve staff burnout at 10+ large hospitals 
+                </h3>
+                <p class="mt-4 font-light"> 
+                 We build a staff relationship management platform to achieve the vision to help frontline managers influence stronger staff engagement, satisfaction, and retention.</p>
+                 <a href="#" class="mt-4 pb-2 hover:text-green-600 inline-block font-bold text-blue-600">READ THE STORY <i class="ms-2 fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+          </a>
+          <a href="detailpage.html">
+            <div class="bg-slate-100 ">
+              <img src="./Images/doctoor.webp" data-aos="fade-up" class="img-fluid" alt="">
+              <div class=" ps-3 sm:ps-6">
+              <h2 class="font-bold text-2xl mt-3">Laudio</h2>
+              <h3 class="text-blue-600 mt-3 font-bold text-base sm:text-xl">We are leveraging AI and ML to help solve staff burnout at 10+ large hospitals 
+                </h3>
+                <p class="mt-4 font-light"> 
+                 We build a staff relationship management platform to achieve the vision to help frontline managers influence stronger staff engagement, satisfaction, and retention.</p>
+                 <a href="#" class="mt-4 pb-2 hover:text-green-600 inline-block font-bold text-blue-600">READ THE STORY <i class="ms-2 fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+          </a>
+          </div>
+        </div>
+      </div>
+       </section>
+
+       <section>
+        <div class="lg:container px-3 md:px-10 mx-auto xl:container md:container sm:container container">
+          <div>
+            <div class="flex justify-between sm:flex-row flex-col items-center gap-5">
+            <div class="p-4  bg-slate-100">
+              <p class=" text-3xl"><i class="fa-solid fa-chart-line"></i></p>
+              <p class="text-green-600 mt-3 font-bold text-xl">RETAIL</p>
+              <h2 class="font-bold text-3xl mt-3">15%</h2>
+              <p class="mt-4">Reduction in return rate, achieving significant cost saving achieved through an intelligent dashboard for retailers.</p>
+            </div>
+            <div class="p-4  bg-slate-100">
+              <p class=" text-3xl"><i class="fa-solid fa-chart-line"></i></p>
+              <p class="text-green-600 mt-3 font-bold text-xl">RETAIL</p>
+              <h2 class="font-bold text-3xl mt-3">15%</h2>
+              <p class="mt-4">Reduction in return rate, achieving significant cost saving achieved through an intelligent dashboard for retailers.</p>
+            </div>
+            <div class="p-4  bg-slate-100">
+              <p class=" text-3xl"><i class="fa-solid fa-chart-line"></i></p>
+              <p class="text-green-600 mt-3 font-bold text-xl">RETAIL</p>
+              <h2 class="font-bold text-3xl mt-3">15%</h2>
+              <p class="mt-4">Reduction in return rate, achieving significant cost saving achieved through an intelligent dashboard for retailers.</p>
+            </div>
+          </div>
+          <div class="flex justify-between  sm:flex-row flex-col items-center gap-5 mt-3">
+            <div class="p-4  bg-slate-100">
+              <p class=" text-3xl"><i class="fa-solid fa-chart-line"></i></p>
+              <p class="text-green-600 mt-3 font-bold text-xl">RETAIL</p>
+              <h2 class="font-bold text-3xl mt-3">15%</h2>
+              <p class="mt-4">Reduction in return rate, achieving significant cost saving achieved through an intelligent dashboard for retailers.</p>
+            </div>
+            <div class="p-4  bg-slate-100">
+              <p class=" text-3xl"><i class="fa-solid fa-chart-line"></i></p>
+              <p class="text-green-600 mt-3 font-bold text-xl">RETAIL</p>
+              <h2 class="font-bold text-3xl mt-3">15%</h2>
+              <p class="mt-4">Reduction in return rate, achieving significant cost saving achieved through an intelligent dashboard for retailers.</p>
+            </div>
+            <div class="p-4  bg-slate-100">
+              <p class=" text-3xl"><i class="fa-solid fa-chart-line"></i></p>
+              <p class="text-green-600 mt-3 font-bold text-xl">RETAIL</p>
+              <h2 class="font-bold text-3xl mt-3">15%</h2>
+              <p class="mt-4">Reduction in return rate, achieving significant cost saving achieved through an intelligent dashboard for retailers.</p>
+            </div>
+          </div>
+          </div>
+        </div>
+       </section>
+    </main>
+<!-- main ends -->
+
+    <!-- footer start -->
+    <footer class="py-8 bg-black mt-10">
+      <div
+        class="lg:container px-3 md:px-10 mx-auto xl:container md:container sm:container container"
+      >
+        <form
+          action=""
+          class="w-full py-14 border-b-2 border-slate-600 text-center"
+        >
+          <h2
+            class="font-bold me-3 text-2xl text-green-600 block md:mb-0 mb-5 md:inline-block"
+          >
+            Stay in the loop
+          </h2>
+          <input
+            type="text"
+            class="border-0 md:inline-block block w-full p-2 text-white bg-slate-700 md:w-1/4"
+            placeholder="Your Email Address"
+          />
+          <button
+            class="font-bold md:ms-3 md:inline-block block md:mt-0 mt-5 md:w-1/3 w-full hover:bg-green-600 hover:text-white py-2 px-3 bg-white"
+          >
+            Subscribe for Updates
+          </button>
+        </form>
+        <div
+          class="py-5 pb-10 pt-10 flex-col md:flex-row border-b-2 border-slate-600 text-white flex items-center"
+        >
+          <div class="self-start sticky bg-black top-16 z-20">
+            <img src="./Images/footer-logo.svg" alt="footer-logo" />
+            <div class="mt-3 md:block hidden">
+              <p class="bold"><small>Get in touch</small></p>
+              <p>Mon-Fri during US work hours</p>
+              <a href="#" class="block"
+                ><i class="fa-solid fa-phone"></i>(800)815-2044</a
+              >
+            </div>
+          </div>
+          <div
+            class="flex flex-wrap sm:flex-nowrap ms-0 md:mt-0 mt-10 sm:ms-10"
+          >
+            <div
+              class="flex self-start justify-center flex-col ms-2 mt-4 sm:mt-0 md:ms-20"
+            >
+              <h2 class="font-bold text-xl md:text-2xl">Company</h2>
+              <a href="#" class="mt-5 hover:text-green-600">About Us</a>
+              <a href="#" class="mt-5 hover:text-green-600">Contact Us</a>
+              <a href="#" class="mt-5 hover:text-green-600"
+                >Security and Compliance</a
+              >
+            </div>
+            <div
+              class="flex justify-center flex-col sm:ms:10 ms-2 mt-4 sm:mt-0 md:ms-20"
+            >
+              <h2 class="font-bold text-xl md:text-2xl">Services</h2>
+              <a href="#" class="mt-5 hover:text-green-600">GenAI Solutions</a>
+              <a href="#" class="mt-5 hover:text-green-600"
+                >Product Development</a
+              >
+              <a href="#" class="mt-5 hover:text-green-600">Ai & Data</a>
+              <a href="#" class="mt-5 hover:text-green-600">Design</a>
+              <a href="#" class="mt-5 hover:text-green-600">DevOps & Cloud</a>
+            </div>
+            <div
+              class="flex self-start justify-center flex-col sm:ms:10 ms-2 mt-4 sm:mt-0 md:ms-20"
+            >
+              <h2 class="font-bold text-xl md:text-2xl">Connect with Us</h2>
+              <a href="#" class="mt-5 hover:text-green-600"
+                ><i class="fa-solid fa-podcast me-1 sm:me-3"></i>Podcast</a
+              >
+              <a href="#" class="mt-5 hover:text-green-600"
+                ><i class="fa-brands fa-linkedin me-1 sm:me-3"></i>LinkedIn</a
+              >
+              <a href="#" class="mt-5 hover:text-green-600"
+                ><i class="fa-brands fa-facebook me-1 sm:me-3"></i>Facebook</a
+              >
+              <a href="#" class="mt-5 hover:text-green-600"
+                ><i class="fa-brands fa-instagram me-1 sm:me-3"></i>Instagram</a
+              >
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex justify-between items-center flex-wrap py-8 text-white"
+        >
+          <img src="./Images/footer-cvg.webp" class="w-20 mt-5" alt="" />
+          <p class="text-sm md:text-base lg:text-xl lg:font-semibold mt-5">
+            Copyright 2024, Leapfrog Technology Inc.
+          </p>
+          <div class="mt-5">
+            <a href="#" class="text-sm md:text-base lg:text-xl lg:font-semibold">Privacy Policy</a>
+            .
+            <a href="#" class="text-sm md:text-base lg:text-xl lg:font-semibold ms-2">Data Policy</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+     <!-- footer ends -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
